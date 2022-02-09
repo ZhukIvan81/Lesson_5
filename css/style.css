@@ -1,0 +1,264 @@
+@import "null.css";
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/*=================*/
+/* ===Для статьи===*/
+/*=================*/
+@font-face {
+   font-family: "MontserratAlternates";
+   src: url(../fonts/MontserratAlternates-SemiBoldItalic.woff2) format("woff2");
+   src: url(../fonts/MontserratAlternates-SemiBoldItalic.woff) format("woff");
+   font-weight: 600;
+   font-style: italic;
+   font-display: swap;   
+}
+@font-face {
+   font-family: 'PressStart2P';
+   src: url(../fonts/PressStart2P-Regular.woff2) format("woff2");
+   src: url(../fonts/PressStart2P-Regular.woff) format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;   
+}
+body.state {
+   width: 1200px;
+   margin: 0px auto;
+   font-size: 0px;
+}
+span {
+   font-weight: 800;
+   color: rgb(86, 0, 167);
+}
+.nav {
+   padding-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   font-weight: 600;
+   color: darkblue;
+   text-align: center;
+   text-transform:uppercase;
+   letter-spacing: 1px;
+   text-decoration: underline;
+}
+.first, .first1, .first2, .first3, .first4, .first5 {
+   width: 300px;
+}
+.first1 {
+   margin-left: 300px;
+}
+.first2 {
+   margin-left: 600px;
+}
+.first3 {
+   margin-left: 900px;
+}
+.title-f {
+   font-family: 'Montserrat';
+   font-size: 50px;
+   font-weight: 900;
+   text-align: center;
+   text-transform:uppercase;
+   line-height: 1.6;
+   color: rgb(41, 68, 1);
+   text-shadow: #1E212C 2px 2px 2px;
+   margin: 30px 0px;
+   letter-spacing: 3px;
+}
+.p-1 {
+   font-family: 'Caveat';
+   display: inline-block;
+   font-weight: 600;
+   font-size: 24px;
+   width: 950px;
+   padding: 10px;
+   text-indent: 40px;
+   text-align: justify;
+   letter-spacing: 1px;
+}
+h2 {
+   font-family: "MontserratAlternates", sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+   font-style: italic;
+   letter-spacing: 3px;
+   text-align: center;
+   margin: 30px 0;
+}
+h3 {
+   font-size: 22px;
+}
+h4 {
+   font-size: 18px;
+   text-decoration: overline;
+}
+.list-cl {
+   font-size: 20px;
+   height: 250px;
+   overflow: auto;
+}
+li {
+   margin-bottom: 5px;
+   font-style: oblique;
+
+}
+.list-cl>li {
+   text-indent: 20px;   
+}
+/*разная класификация авто*/
+.engine, .civil, .military, .specz, .civil-h {
+   margin: 10px;
+   width: 400px;
+   text-align: center;
+}
+.civil-h {
+   margin-left: 400px;
+}
+.specz {
+   margin: 0 0 0 100%;
+}
+.txt{
+   font-family: 'PressStart2P';
+   font-size: 8px;
+   font-style: normal;
+   letter-spacing: 2px;
+   margin: 10px;
+}
+.con {
+   font-size: 18px;
+   font-weight: 600;
+   text-align: justify;
+   color: yellow;
+   text-shadow: 0 0 5px #0f1325;
+   padding: 0 100px;
+}
+/*Производство автомобилей*/
+.manuf {
+   font-size: 18px;
+   color: aqua;
+   text-indent: 30px;
+   text-align: justify;
+   padding-bottom: 5px;
+   letter-spacing: 2px;
+}
+.manuf-2 {
+   font-size: 18px;
+   color: rgb(3, 38, 153);
+   text-indent: 30px;
+   text-align: justify;
+   padding-bottom: 5px;
+   letter-spacing: 2px;
+   text-decoration: overline;
+}
+.manuf-2>li {
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 200;
+   text-indent: 50px;
+   margin: 10px 0;
+}
+.manuf-3 {
+   width: 900px;
+   margin: 0 0 0 auto ;
+   font-size: 18px;
+   color: rgb(153, 3, 16);
+   text-indent: 30px;
+   text-align: right;
+   padding-bottom: 5px;
+   letter-spacing: 2px;
+}
+/*История*/
+.history {
+   font-size: 20px;
+}
+.h-txt {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-weight: 600;
+   font-size: 20px;
+   margin-bottom: 10px;
+   line-height: 1.3;
+   color: brown;
+   text-shadow: 0 1px 2px #000000;
+   text-indent: 40px;
+}
+.h-txt-1 {
+   font-family: 'PressStart2P', cursive;;
+   font-size: 20px;
+   margin-bottom: 10px;
+   font-weight: 400;
+   text-align: center;
+   margin: 30px auto;
+   max-width: 900px;
+   width: 800px;
+   line-height: 1.3;
+   letter-spacing: 3px;
+   color: rgb(34, 119, 0);
+   text-shadow: 2px 1px 2px #000000, -2px -1px 5px #9102028a;
+}
+.h-txt-2 {
+   font-family: 'Caveat';
+   font-size: 22px;
+   margin-bottom: 8px;
+   font-weight: 700;
+   text-align: right;
+   margin: 20px;
+   line-height: 1.3;
+   letter-spacing: 2px;
+   color: rgb(81, 0, 119);
+   white-space: nowrap;
+}
+.foot {
+   font-size: 18px;
+   width: 200px;
+   text-decoration: underline;
+   margin: 20px 10px 20px auto;
+}
+.h-block {
+   overflow: scroll;
+   height: 150px;
+   width: 800px;
+   margin: 0 auto ;
+}
+/*=================================*/
+/* --Для страницы с макетом Figma--*/
+/*=================================*/
+body.figma {
+   margin-left: 345px;
+   width: 810px;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   color: #424551;
+   line-height: 1.6;
+}
+.title {
+   margin: 190px 0px 92px 0px;
+   font-size: 46px;
+   font-weight: 900;
+   color: #1E212C;
+   line-height: 1.3;
+}
+.img1 {
+   width: 810px;
+   height: 360px;
+}
+.parahrarh-1 {
+   margin: 60px 0px 24px 0px;
+}
+.parahrarh-3 {
+   margin: 48px 0px 48px 58px;
+}
+.parahrarh-1,
+.parahrarh-3 {
+   font-size: 20px;
+   font-weight: 700;
+   color: #1E212C;
+   line-height: 1.3;
+}
+.figma-list {
+   margin: 24px 0px 24px 32px;
+}
+.f-m1 {
+   margin: 0px 0px 4px 0px;
+}
